@@ -12,8 +12,14 @@
         height: 120px;
         margin: 0 auto;
       }
-      .about p {
-        margin-bottom: 1rem;
+      p.github {
+        margin-top: 3rem;
+      }
+      p.notes {
+        margin-top: 1.5rem;
+      }
+      footer {
+        margin-top:8rem;
       }
     </style>
   </head>
@@ -25,42 +31,27 @@
           <img src="./img/Logo@2x.png"/>
         </figure>
         <h2 class="title is-6 has-text-centered">
-          Middleware framework for AWS Lambda using ES2017 async functions
+          Lightweight middleware framework for developing more complex AWS Lambda functions.
         </h2>
-        <h3 class="title is-7 has-text-centered">
-          <a href="https://github.com/funcmaticjs/funcmatic">Github</a> 
-          | <a href="https://opensource.org/licenses/MIT">MIT Licensed</a> 
+        <p class="github has-text-centered">
+          <a class="button is-medium is-warning" href="https://github.com/funcmaticjs/funcmatic">
+            <span class="icon">
+              <i class="fab fa-github"></i>
+            </span>
+            <span>View on GitHub</span>
+          </a>
+        </p>
+        <p class="notes has-text-centered is-size-7">
+          <a href="https://opensource.org/licenses/MIT">MIT Licensed</a> 
           | Inspired by <a href="https://koajs.com">koa.js</a>
-        </h3>
-      </div>
-    </div>
-  </section>
-  <section class="section about">
-    <div class="container">
-      <div class="columns">
-        <div class="column is-2"></div>
-        <div class="column is-2">
-          <ul class="menu">
-            <li>Introduction</li>
-          </ul>
-        </div>
-        <div class="column is-6">
-          <h3 class="title is-5">Introduction</h3>
-          <p>
-            Funcmatic helps you write AWS Lambda Javascript functions that respond to HTTP requests from AWS API Gateway. 
-          </p>
-          <p>
-            More information coming soon!
-          </p>
-        </div>
-        <div class="column is-2"></div>
+        </p>
       </div>
     </div>
   </section>
   <footer class="footer">
     <div class="content has-text-centered is-size-7">
       <p>
-        <strong>Funcmatic</strong> by <a href="https://github.com/danieljyoo">Daniel Jhin Yoo</a>. The source code is licensed
+        <strong>Funcmatic</strong> by <a href="https://github.com/danieljyoo">Funcmatic Inc.</a> The source code is licensed
         <a href="https://opensource.org/licenses/MIT">MIT</a>. The website content
         is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
       </p>
